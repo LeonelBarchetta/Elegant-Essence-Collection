@@ -8,7 +8,45 @@ body{
     background: linear-gradient(to right, white 60% , #D6BDA6 40%);
 }
 
-nav{
+nav,section{
     display: flex;
-    align-items: self-end;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.left{
+    width: 40%;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.right{
+    width: 30%;
+    justify-content: space-between;
+    display: flex;
+}
+.pag{
+    margin: 1.19rem 5rem 1.19rem 2.75rem;
+}
+
+.titulohead{
+    font-weight: bolder;
+   
+    
+}
+
+.item{
+    margin: 1.75rem 2rem 1.19rem 2rem;
+    font-size: 0.7rem;
 }
