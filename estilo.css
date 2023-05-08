@@ -11,7 +11,11 @@ body{
 
 nav,section{
     display: flex;
+    
 }
+
+
+
 a{
     text-decoration: none;
     color: black;
@@ -90,9 +94,29 @@ nav{
 
  .titulo{
     font-size: 4rem;
-    margin: 6rem 0 1rem 0;
+    margin: 10rem 0 3rem 0;
  }
 
  .item:hover{
     text-decoration: underline;
+ }
+
+ .shop{
+    border: 0.15rem solid black;
+    width: 8rem;
+    height: 2.4rem;
+    font-weight: bolder;
+    background-color: white;
+ }
+
+ .parrafo{
+    margin: 8.5rem 0 0 0;
+    width: 21rem;
+    font-size: 0.9rem;
+ }
+
+ .imagen{
+    position: absolute;
+    height: 60rem;
+    left: 26rem;
  }
