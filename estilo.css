@@ -33,6 +33,7 @@ nav{
     width: 40%;
     justify-content: space-between;
     display: flex;
+   
 
 }
 
@@ -74,12 +75,21 @@ nav{
 
 .itemdos{
     margin: 1.75rem 0 1.19rem 0;
+    
 }
 
+.imguno{
+    height: 1.2rem;
+}
+
+.imgdos{
+    height: 1rem;
+    
+}
 
  .bolsa{
     padding-right: 1rem;
-    margin: 1.75rem 0 1.19rem 1.2rem;
+    margin: 1.75rem 0 1.19rem 1rem;
     border-right: 0.06rem solid gray;
  }
 
@@ -117,6 +127,14 @@ nav{
 
  .imagen{
     position: absolute;
-    height: 60rem;
-    left: 26rem;
+    height: 120vh;
+    width: 90vh;
+    left: 54vh;
+ }
+
+ .uno{
+    height: 0.8rem;
+    position: absolute;
+    bottom: 95vh;
+    left: 125vh;
  }
