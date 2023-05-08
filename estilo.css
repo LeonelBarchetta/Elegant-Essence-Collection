@@ -20,6 +20,7 @@ a{
     text-decoration: none;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 nav{
@@ -53,21 +54,21 @@ nav{
 }
 
 .item{
-    margin: 1.75rem 1.8rem 1.19rem 1.8rem;
-    font-size: 0.7rem;
+    margin: 1.75rem 2.5rem 1.19rem 2.5rem;
+    font-size: 0.6rem;
 }
 
 .B-uno{
     background-color: #D6BDA6;
     border: none;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     width: 4rem;
     height: 1.4rem;
 }
 .B-dos{
     background-color: #D6BDA6;
-    border: 0.06rem solid black;
-    font-size: 0.7rem;
+    border: 0.09rem solid black;
+    font-size: 0.6rem;
     width: 4rem;
     height: 1.4rem;
     margin-right: 2.75rem;
@@ -94,7 +95,7 @@ nav{
  }
 
  .texto{
-    width: 45%;
+    width: 50%;
     margin-left: 2.75rem;
  }
 
@@ -103,8 +104,8 @@ nav{
  }
 
  .titulo{
-    font-size: 4rem;
-    margin: 10rem 0 3rem 0;
+    font-size: 4.6rem;
+    margin: 6rem 0 3rem 0;
  }
 
  .item:hover{
@@ -120,21 +121,21 @@ nav{
  }
 
  .parrafo{
-    margin: 8.5rem 0 0 0;
+    margin: 7.8rem 0 0 0;
     width: 21rem;
     font-size: 0.9rem;
  }
 
  .imagen{
     position: absolute;
-    height: 120vh;
-    width: 90vh;
-    left: 54vh;
+    height: 155vh;
+    top: 7vh;
+    left: 81vh;
  }
 
  .uno{
     height: 0.8rem;
     position: absolute;
-    bottom: 95vh;
-    left: 125vh;
+    bottom: 94vh;
+    left: 173vh;
  }
