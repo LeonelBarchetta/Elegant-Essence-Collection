@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Instrument+Serif&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -49,8 +50,7 @@ nav{
 
 .titulohead{
     font-weight: bolder;
-    font-family: 'Instrument Serif', serif;
-    
+    font-family: 'DM Serif Text', serif;
 }
 
 .item{
@@ -89,7 +89,7 @@ nav{
 }
 
  .bolsa{
-    padding-right: 1rem;
+    padding-right: 1.5rem;
     margin: 1.75rem 0 1.19rem 1rem;
     border-right: 0.06rem solid gray;
  }
@@ -106,6 +106,7 @@ nav{
  .titulo{
     font-size: 4.6rem;
     margin: 6rem 0 3rem 0;
+    
  }
 
  .item:hover{
@@ -136,6 +137,33 @@ nav{
  .uno{
     height: 0.8rem;
     position: absolute;
-    bottom: 94vh;
-    left: 173vh;
+    bottom: 36.5rem;
+    left: 66.4rem;
+ }
+
+ .padre{
+    
+    height: 9rem;
+    width: 5rem;
+    margin: 12rem 0 7rem 29rem;
+ }
+
+ .hijouno{
+    border-right: 0.21rem solid black;
+    height: 3rem;
+    margin: ;
+ }
+
+ .hijodos{
+    border-right: 0.16rem solid gray;
+    height: 3rem;
+    
+ }
+
+ .numero{
+    font-weight: bolder;
+    font-size: 0.6rem;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    text-align: center;
  }
