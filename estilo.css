@@ -108,6 +108,10 @@ hr{
     background-color: #fce2ca;
 }
 
+.menu{
+    display: none;
+}
+
 section{
     display: flex;
     padding-left: 7rem;
@@ -156,6 +160,7 @@ section{
 }
 .imagen img{
     height: 54rem;
+    max-width: 100%;
 }
 
 .padre{
@@ -190,174 +195,212 @@ section{
     border-right: 0.21rem solid rgb(169, 168, 168);
 }
 
-
-
-
-/* 
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Instrument+Serif&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    background: linear-gradient(to right, white 60% , #D6BDA6 40%);
-}
-
-nav,section{
-    display: flex;
+@media (max-width:1500px){
     
-}
-
-
-
-a{
-    text-decoration: none;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-nav{
+    nav{
+        height: 4.5rem;
+    }
     
-    display: flex;
-    justify-content: space-between;
+    .leftNav{
+        padding-left: 4rem;
+    }
     
-}
+    .leftNav h1{
+        font-size: 2.5rem;
+        margin-right: 5.5rem;
+    }
 
-.left{
-    width: 40%;
-    justify-content: space-between;
-    display: flex;
+    
+    .leftNav div{
+        width: 25rem;
+    }
+
+    .leftNav a{
+        font-size: 0.8rem
+    }
+    
+    .rightNav{
+        padding-right: 4rem;
+    }
+
    
+    .search{
+        height: 1.5rem;
+        margin: 0rem 0.8rem;
+    }
 
-}
+    .bolsa{
+        height: 1.5rem;
+        width: 2rem;
+        margin: 0rem 0.8rem;
+    }
 
-.right{
+    .bolsa img{
+        height: 1rem;
+        margin-left: 1rem;
+    }
     
-    justify-content: space-between;
-    display: flex;
-}
-.pag{
-    margin: 1.19rem 5rem 1.19rem 2.75rem;
-}
-
-.titulohead{
-    font-weight: bolder;
-    font-family: 'DM Serif Text', serif;
-}
-
-.item{
-    margin: 1.75rem 2.5rem 1.19rem 2.5rem;
-    font-size: 0.6rem;
-}
-
-.B-uno{
-    background-color: #D6BDA6;
-    border: none;
-    font-size: 0.6rem;
-    width: 4rem;
-    height: 1.4rem;
-}
-.B-dos{
-    background-color: #D6BDA6;
-    border: 0.09rem solid black;
-    font-size: 0.6rem;
-    width: 4rem;
-    height: 1.4rem;
-    margin-right: 2.75rem;
-}
-
-.itemdos{
-    margin: 1.75rem 0 1.19rem 0;
+   
+    .rightNav button{
+        margin: 0rem 0.8rem;
+        font-size: 0.8rem
+    }
     
+    section{
+        padding-left: 4rem;
+        padding-right: 3.5rem;
+    }
+     
+    .texto{
+        padding-top: 6rem;
+    }
+    
+    .texto h1{
+        font-size: 4rem;
+        width: 28rem;
+    }
+    
+    .texto button{
+        margin-top: 3rem;
+        font-size: 1rem;
+        padding: 0.8rem 1.5rem;
+        width: 10rem;
+        border: 0.3rem solid black;
+    }
+    
+    
+    .texto p{
+        font-size: 0.8rem;
+        margin-top: 3rem;
+        width: 20rem;
+    }
+    
+    .imagen{
+        margin-right: 10rem;
+    }
+    .imagen img{
+        height: 38rem;
+        max-width: 100%;
+    }
+    
+    
+    .hijouno{
+        height: 3.5rem;
+        font-size: 0.6rem;
+    }
+    
+    .hijodos{
+        height: 3.5rem;
+        font-size: 0.6rem;
+    }
 }
 
-.imguno{
-    height: 1.2rem;
+@media (max-width:720px){
+    body{
+        background: linear-gradient(to right, white 50% , #D6BDA6 50%);
+    }
+
+    nav{
+        height: 10rem;
+    }
+    
+    .leftNav{
+        padding-left: 2rem;
+    }
+    
+    .leftNav h1{
+        font-size: 4.5rem;
+        margin-right: 0rem;
+    }
+    
+    
+    .leftNav div{
+        width: 0rem;
+    }
+
+    .leftNav a{
+        display: none;
+    }
+     
+    .rightNav{
+        padding-right: 2rem;
+    }
+   
+    .search{
+        height: 3rem;
+        margin: 0rem 0.8rem;
+    }
+    
+    .bolsa{
+        display: none;
+    }
+
+    .bolsa img{
+        display: none;
+
+    }
+    
+    .rightNav button{
+        display: none;
+
+    }
+
+    .menu{
+        display: block;
+        cursor: pointer;
+        margin: 0rem 0.8rem;
+        height: 4rem;
+    }
+
+    section{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        flex-wrap: wrap;
+    }
+     
+    .texto{
+        padding-top: 4rem;
+        text-align: center;
+    }
+    
+    .texto h1{
+        font-size: 5rem;
+        width: 100%;
+
+    }
+    
+    .texto button{
+        font-size: 1.2rem;
+        padding: 1rem 1.5rem;
+        width: 12rem;
+    }
+    
+    
+    .texto p{
+        font-size: 1.2rem;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .imagen{
+        margin-right: 10rem;
+    }
+    .imagen img{
+        height: 40rem;
+        max-width: 100%;
+    }
+    
+    .hijouno{
+        height: 6rem;
+        font-size: 2rem;
+        padding-right: 1rem;
+        border-right: 0.5rem solid black;
+    }
+    
+    .hijodos{
+        height: 6rem;
+        font-size: 2rem;
+        padding-right: 1rem;
+        border-right: 0.5rem solid gray;
+    } 
 }
-
-.imgdos{
-    height: 1rem;
-    
-}
-
- .bolsa{
-    padding-right: 1.5rem;
-    margin: 1.75rem 0 1.19rem 1rem;
-    border-right: 0.06rem solid gray;
- }
-
- .texto{
-    width: 50%;
-    margin-left: 2.75rem;
- }
-
- .B-dos:hover{
-    background-color: #FCE3CC;
- }
-
- .titulo{
-    font-size: 4.6rem;
-    margin: 6rem 0 3rem 0;
-    
- }
-
- .item:hover{
-    text-decoration: underline;
- }
-
- .shop{
-    border: 0.15rem solid black;
-    width: 8rem;
-    height: 2.4rem;
-    font-weight: bolder;
-    background-color: white;
- }
-
- .parrafo{
-    margin: 7.8rem 0 0 0;
-    width: 21rem;
-    font-size: 0.9rem;
- }
-
- .imagen{
-    position: absolute;
-    height: 155vh;
-    top: 7vh;
-    left: 81vh;
- }
-
- .uno{
-    height: 0.8rem;
-    position: absolute;
-    bottom: 36.5rem;
-    left: 66.4rem;
- }
-
- .padre{
-    
-    height: 9rem;
-    width: 5rem;
-    margin: 12rem 0 7rem 29rem;
- }
-
- .hijouno{
-    border-right: 0.21rem solid black;
-    height: 3rem;
-    
- }
-
- .hijodos{
-    border-right: 0.16rem solid gray;
-    height: 3rem;
-    
- }
-
- .numero{
-    font-weight: bolder;
-    font-size: 0.6rem;
-    padding-top: 1rem;
-    padding-left: 3rem;
-    text-align: center;
- } */
